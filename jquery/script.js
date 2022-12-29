@@ -1,8 +1,8 @@
 $(document).ready(function () {
-  $("p").dblclick(function () {
-    $(this).hide();
+  $("button").click(function () {
+    $("h1").animate({
+      left: "250px",
+      opacity: "0.5",
+    });
   });
 });
-
-
-
