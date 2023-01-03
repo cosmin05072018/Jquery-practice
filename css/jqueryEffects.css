@@ -1,0 +1,9 @@
+.paragraph{
+    background-color: aqua;
+    width: 100%;
+}
+
+span{
+    font-weight: 800;
+    color: red;
+}
