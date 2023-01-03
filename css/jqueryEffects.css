@@ -120,3 +120,17 @@ span {
     background-color: burlywood;
     width: 50%;
 }
+
+
+.headerToggle{
+    height: 50px;
+    width: 100%;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: center;
+}
+
+.slidingToggle{
+    background-color: rgb(203, 178, 147);
+    width: 50%;
+}

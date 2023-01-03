@@ -21,38 +21,42 @@ $(document).ready(function () {
   });
 
   //fadeOut()
-  $('.divFadeOut').click(function(){
-    $('.div4').fadeOut("slow");
-    $('.div5').fadeOut("5000");
-    $('.div6').fadeOut("5500");
-  })
+  $(".divFadeOut").click(function () {
+    $(".div4").fadeOut("slow");
+    $(".div5").fadeOut("5000");
+    $(".div6").fadeOut("5500");
+  });
 
   //fade toggle
-  $('.divToggle').click(function(){
-    $('.div7').fadeToggle("slow");
-    $('.div8').fadeToggle("5000");
-    $('.div9').fadeToggle("5500");
-  })
+  $(".divToggle").click(function () {
+    $(".div7").fadeToggle("slow");
+    $(".div8").fadeToggle("5000");
+    $(".div9").fadeToggle("5500");
+  });
 
   //fadeTo
-  $('.divFadeTo').click(function(){
-    $('.div10').fadeTo("slow", 0.4);
-    $('.div11').fadeTo("slow", 0.9);
-    $('.div12').fadeTo("slow", 0);
-  })
-
+  $(".divFadeTo").click(function () {
+    $(".div10").fadeTo("slow", 0.4);
+    $(".div11").fadeTo("slow", 0.9);
+    $(".div12").fadeTo("slow", 0);
+  });
 
   //SLIDING
 
   //slideDown()
 
-  $('.slideDown').click(function(){
-    $('.slidingDown').slideDown("slow");
-  })
+  $(".slideDown").click(function () {
+    $(".slidingDown").slideDown("slow");
+  });
 
   //slideUp()
-  $('.slideUp').click(function(){
-    $('.slidingUp').slideUp("slow");
-  })
+  $(".slideUp").click(function () {
+    $(".slidingUp").slideUp("fast");
+  });
+
+  //slideToggle()
+  $(".toggle").click(function () {
+    $(".slidingToggle").slideToggle();
+  });
   /* --------------STOP Jquery Effects-----------------*/
 });
