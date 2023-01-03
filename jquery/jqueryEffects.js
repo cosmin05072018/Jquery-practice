@@ -12,7 +12,7 @@ $(document).ready(function () {
     );
   });
 
-  //fading
+  //FADING
   //fadeIn ()
   $(".divFadeIn").click(function () {
     $(".div1").fadeIn("slow");
@@ -39,6 +39,20 @@ $(document).ready(function () {
     $('.div10').fadeTo("slow", 0.4);
     $('.div11').fadeTo("slow", 0.9);
     $('.div12').fadeTo("slow", 0);
+  })
+
+
+  //SLIDING
+
+  //slideDown()
+
+  $('.slideDown').click(function(){
+    $('.slidingDown').slideDown("slow");
+  })
+
+  //slideUp()
+  $('.slideUp').click(function(){
+    $('.slidingUp').slideUp("slow");
   })
   /* --------------STOP Jquery Effects-----------------*/
 });
