@@ -21,4 +21,22 @@ $(document).ready(function () {
   $(".valSet").click(function () {
     $(".setVal").val("s");
   });
+
+  //A Callback Function for text(), html(), and val()
+
+  $("#btn1").click(function(){
+    $("#test1").text(function(inn, asdasd){
+      return "Old text: " + asdasd + " New text: Hello world! (index: " + inn + ")"; 
+    });
+  });
+
+  $("#btn2").click(function(){
+    $("#test2").html(function(i, origText){
+      return "Old html: " + origText + " New html: Hello <b>world!</b> (index: " + i + ")"; 
+    });
+  });
+
+  $('.changeHref').click(function(){
+    $('.hrefAttr').attr('href', 'https://codeigniter.com/')
+  })
 });
