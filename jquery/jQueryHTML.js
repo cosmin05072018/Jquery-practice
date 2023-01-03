@@ -24,19 +24,41 @@ $(document).ready(function () {
 
   //A Callback Function for text(), html(), and val()
 
-  $("#btn1").click(function(){
-    $("#test1").text(function(inn, asdasd){
-      return "Old text: " + asdasd + " New text: Hello world! (index: " + inn + ")"; 
+  $("#btn1").click(function () {
+    $("#test1").text(function (inn, asdasd) {
+      return (
+        "Old text: " + asdasd + " New text: Hello world! (index: " + inn + ")"
+      );
     });
   });
 
-  $("#btn2").click(function(){
-    $("#test2").html(function(i, origText){
-      return "Old html: " + origText + " New html: Hello <b>world!</b> (index: " + i + ")"; 
+  $("#btn2").click(function () {
+    $("#test2").html(function (i, origText) {
+      return (
+        "Old html: " +
+        origText +
+        " New html: Hello <b>world!</b> (index: " +
+        i +
+        ")"
+      );
     });
   });
 
-  $('.changeHref').click(function(){
-    $('.hrefAttr').attr('href', 'https://codeigniter.com/')
-  })
+  $(".changeHref").click(function () {
+    $(".hrefAttr").attr("href", "https://codeigniter.com/");
+  });
+
+  $(".addAppend").click(function () {
+    $(".pAppend").append(" Alt paragraf append.");
+  });
+
+  $(".addPrepend").click(function () {
+    $(".pPrepend").prepend(" Alt paragraf prepend.");
+  });
+  $(".before").click(function () {
+    $(".x").before("x");
+  });
+  $(".after").click(function () {
+    $(".x").afer("xasas");
+  });
 });
