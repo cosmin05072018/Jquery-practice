@@ -58,5 +58,19 @@ $(document).ready(function () {
   $(".toggle").click(function () {
     $(".slidingToggle").slideToggle();
   });
+
+  //ANIMATION
+
+  $(".animate").click(function () {
+    $(".cub").animate({ width: "100px" }, "slow");
+    $(".cub").animate({ height: "100px" }, "slow");
+    $(".cub").animate({ fontSize: "20px" }, "slow");
+    $(".cub").animate({ width: "50px" }, "slow");
+    $(".cub").animate({ height: "50px" }, "slow");
+    $(".cub").animate({ fontSize: "16px" }, "slow");
+  });
+
+  //STOP ANIMATIONS
+  
   /* --------------STOP Jquery Effects-----------------*/
 });
