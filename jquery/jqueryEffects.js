@@ -71,6 +71,11 @@ $(document).ready(function () {
   });
 
   //STOP ANIMATIONS
-  
+  $(".btnStart").click(function () {
+    $(".slideDownStop").slideDown(5000);
+  });
+  $(".btnStop").click(function () {
+    $(".slideDownStop").stop();
+  });
   /* --------------STOP Jquery Effects-----------------*/
 });

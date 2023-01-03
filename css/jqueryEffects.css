@@ -142,3 +142,13 @@ span {
     height: 50px;
     position: relative;
 }
+
+.save{
+    width: 100px;
+}
+
+.slideDownStop{
+    width: 400px;
+    background-color: aquamarine;
+    display: none;
+}
