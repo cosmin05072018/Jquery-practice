@@ -1,9 +1,95 @@
-.paragraph{
-    background-color: aqua;
-    width: 100%;
+.paragraph {
+  background-color: aqua;
+  width: 100%;
 }
 
-span{
-    font-weight: 800;
-    color: red;
+span {
+  font-weight: 800;
+  color: red;
+}
+
+.div1 {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.div2 {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.div3 {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10,
+.div11,
+.div12 {
+  margin: 10px;
+}
+
+.div4 {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+.div5 {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+.div6 {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+}
+
+.div7 {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.div8 {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+
+.div9 {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+}
+
+.div10 {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+}
+
+.div11 {
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+}
+
+.div12 {
+  background-color: red;
+  width: 50px;
+  height: 50px;
 }

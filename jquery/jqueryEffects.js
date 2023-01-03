@@ -1,8 +1,44 @@
 $(document).ready(function () {
-  $('.hide').click(function () {
-    $('.paragraph').hide(/*ii putem specifica parametrii de timp daca dorim*/ 1000);
+  /* --------------START Jquery Effects-----------------*/
+  //hide/show buttons
+  $(".hide").click(function () {
+    $(".paragraph").hide(
+      /*ii putem specifica parametrii de timp daca dorim*/ 1000
+    );
   });
-  $('.show').click(function () {
-    $('.paragraph').show(/*ii putem specifica parametrii de timp daca dorim*/ 1000);
+  $(".show").click(function () {
+    $(".paragraph").show(
+      /*ii putem specifica parametrii de timp daca dorim*/ 1000
+    );
   });
+
+  //fading
+  //fadeIn ()
+  $(".divFadeIn").click(function () {
+    $(".div1").fadeIn("slow");
+    $(".div2").fadeIn(3000);
+    $(".div3").fadeIn();
+  });
+
+  //fadeOut()
+  $('.divFadeOut').click(function(){
+    $('.div4').fadeOut("slow");
+    $('.div5').fadeOut("5000");
+    $('.div6').fadeOut("5500");
+  })
+
+  //fade toggle
+  $('.divToggle').click(function(){
+    $('.div7').fadeToggle("slow");
+    $('.div8').fadeToggle("5000");
+    $('.div9').fadeToggle("5500");
+  })
+
+  //fadeTo
+  $('.divFadeTo').click(function(){
+    $('.div10').fadeTo("slow", 0.4);
+    $('.div11').fadeTo("slow", 0.9);
+    $('.div12').fadeTo("slow", 0);
+  })
+  /* --------------STOP Jquery Effects-----------------*/
 });
