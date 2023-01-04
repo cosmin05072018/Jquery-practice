@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/jueryTraversing.css" />
+</head>
+
+<body>
+    <h2>Traversing Up the DOM Tree</h2>
+
+    <ol>
+        <li><b>parent()</b> -> returneaza parintele direct</li>
+        <div>
+            <h1>
+                asdasd
+                <p class="child">salut</p>
+            </h1>
+        </div>
+        <li>
+            <b>parents()</b> -> Metoda parents() returnează toate elementele strămoși ale elementului selectat, până la elementul rădăcină al documentului (html).
+        </li>
+        <li>
+            <b>parentsUntil()</b> Metoda parentsUntil() returnează toate elementele strămoșilor dintre două argumente date.
+        </li>
+    </ol>
+
+    <h2>jQuery Traversing - Descendants</h2>
+
+    <ol>
+        <li>
+            <b>child()</b>Metoda children() returnează toți copiii direcți ai elementului selectat.
+        </li>
+
+        <li>
+            <b>find()</b> Metoda find() returnează elemente descendente ale elementului selectat, până la ultimul descendent.
+        </li>
+    </ol>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="/jquery/jQueryTraversing.js"></script>
+</body>
+
+</html>
