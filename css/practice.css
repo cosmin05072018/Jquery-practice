@@ -1,0 +1,9 @@
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.active {
+    background-color: #393939;
+    color: #fff;
+}
