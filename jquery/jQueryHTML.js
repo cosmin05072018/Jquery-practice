@@ -61,4 +61,16 @@ $(document).ready(function () {
   $(".after").click(function () {
     $(".x").afer("xasas");
   });
+
+  $(".importantClass").click(function () {
+    $(".addClass").addClass("important");
+  });
+
+  $(".removeClass").click(function () {
+    $(".addClass").removeClass("important");
+  });
+
+  $(".toggleClass").click(function () {
+    $(".addClass").toggleClass("important");
+  });
 });
